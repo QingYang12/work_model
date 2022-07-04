@@ -10,7 +10,7 @@
 
     brew                     软件一般安装在：/usr/local/Cellar/
         1.                                            xx/xx                   运行方法：   
-    环境：
+    环境：                           (mac linux 一般vim ~/.bash_profile     source ~/.bash_profile)
         1.Java        /Library/Java/JavaVirtualMachines/
 
 
