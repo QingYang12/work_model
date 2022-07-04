@@ -8,7 +8,7 @@
 
 
 
-    brew
+    brew                     软件一般安装在：/usr/local/Cellar/
         1.
     环境：
         1.Java        /Library/Java/JavaVirtualMachines/
