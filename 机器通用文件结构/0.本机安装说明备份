@@ -11,14 +11,15 @@
    brew
     0.zookeeper                                       /usr/local/Cellar/zookeeper/3.7.0_1           运行方法：(zkServer start 启动，zkServer stop停止  ) 执行kafka中的zk  cd /usr/local/Cellar/kafka/3.2.0/bin   ./zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties &
     1.kafka                                           /usr/local/Cellar/kafka/3.2.0                 运行方法： cd /usr/local/Cellar/kafka/3.2.0/bin   ./kafka-server-start /usr/local/etc/kafka/server.properties &      （启动前先启动kafka中的ZK）
-    2.ES                                              /usr/local/Cellar/elasticsearch/7.10.2        运行方法： brew services start elasticsearch  本地浏览器访问 http://localhost:9200
-    3.kibana                                          /usr/local/Cellar/kibana                      运行方法：
-    2.git                                             /usr/local/Cellar/git/2.31.1                  运行方法：命令行输入git命令
-    3.openjdk                                         /usr/local/Cellar/15.0.2                      运行方法：配置环境
-   
+    2.ES                                              /usr/local/Cellar/elasticsearch/7.10.2        运行方法： brew services start elasticsearch@6  本地浏览器访问 http://localhost:9200
+    3.kibana                                          /usr/local/Cellar/kibana                      运行方法： kibana      本地浏览器访问  http://localhost:5601/
+    4.git                                             /usr/local/Cellar/git/2.31.1                  运行方法：命令行输入git命令
+    5.openjdk                                         /usr/local/Cellar/openjdk/15.0.2              运行方法：配置环境
+    6.hdfs                                            /usr/local/Cellar/hadoop/3.3.3                运行方法：配置环境  启动 cd /Users/wanghao/Documents/tools/hadoop-2.10.2/sbin  ./start-dfs.sh       停止  ./stop-dfs.sh   本地浏览器访问 http://localhost:50070     日志查看    /Users/wanghao/Documents/tools/hadoop-2.10.2/libexec/logs   
+    7.yarn                                            /usr/local/Cellar/hadoop/3.3.3                运行方法：配置环境  启动 cd /Users/wanghao/Documents/tools/hadoop-2.10.2/sbin  ./start-yarn.sh      停止  ./stop-yarn.sh  本地浏览器访问  http://localhost:8088   
     
 
-    环境：                                 (mac linux 一般vim ~/.bash_profile     source ~/.bash_profile)
+    环境：                                 (mac linux 一般vim ~/.bash_profile     source ~/.bash_profile          vim ~/.zshrc     source ~/.zshrc   sudo vim /etc/profile  source /etc/profile）
             java    /Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk
 
 
